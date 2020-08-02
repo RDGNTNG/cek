@@ -246,7 +246,7 @@ def menu():
 	print "\x1b[1;97m2.\x1b[1;93m Look List Group               "
 	print "\x1b[1;97m3.\x1b[1;93m Information Account               "
 	print "\x1b[1;97m4.\x1b[1;93m Clone Yahoo               "
-	print "\x1b[1;97m2.\x1b[1;93m Crack ID Bangladesh/Pakistan             "
+	print "\x1b[1;97m5.\x1b[1;93m Crack ID Bangladesh/Pakistan             "
 	print "\n\x1b[1;91m0.\x1b[1;91m Logout            "
 	pilih()
 
